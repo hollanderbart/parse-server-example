@@ -20,6 +20,22 @@
     "SERVER_URL": {
       "description": "URL to connect to your Heroku instance (update with your app's name + PARSE_MOUNT)",
       "value": "http://yourappname.herokuapp.com/parse"
+    },
+    "APP_NAME": {
+      "description": "app name",
+      "value": "myAppName"
+    },
+    "DASHBOARD_MOUNT": {
+      "description": "mount dashboard API route",
+      "value": "/dashboard"
+    },
+    "DASHBOARD_USER": {
+      "description": "parse dashboard user login",
+      "value": "myUser"
+    },
+    "DASHBOARD_PASSWORD": {
+      "description": "parse dashboard user password",
+      "value": "myPass"
     }
   },
   "image": "heroku/nodejs",
